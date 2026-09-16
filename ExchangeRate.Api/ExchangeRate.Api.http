@@ -1,0 +1,9 @@
+@ExchangeRate.API_HostAddress = https://localhost:7188
+
+POST {{ExchangeRate.API_HostAddress}}/api/ExchangeRates/update
+
+###
+
+GET {{ExchangeRate.API_HostAddress}}/api/ExchangeRates
+
+###

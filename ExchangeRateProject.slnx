@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="ExchangeRate.API/ExchangeRate.API.csproj" DisplayName="ExchangeRate.Api" Id="f8fdb91d-5ea1-46fd-9ad3-ddbb5b9e2521" />
+  <Project Path="ExchangeRate.Application/ExchangeRate.Application.csproj" />
+  <Project Path="ExchangeRate.Domain/ExchangeRate.Domain.csproj" />
+  <Project Path="ExchangeRate.Infrastructure/ExchangeRate.Infrastructure.csproj" />
+</Solution>
