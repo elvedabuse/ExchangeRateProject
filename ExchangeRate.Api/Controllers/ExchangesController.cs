@@ -42,6 +42,23 @@ namespace ExchangeRate.API.Controllers
                 return BadRequest(ex.Message);
             }
         }
+
+        [HttpGet("change")]
+        public async Task<IActionResult> GetRateChanges(
+            [FromQuery] string currencyCode)
+        {
+            try
+            {
+                var changes = await _exchangeService
+                    .GetRateChangesAsync(currencyCode);
+
+                return Ok(changes);
+            }
+            catch (ArgumentException ex)
+            {
+                return BadRequest(ex.Message);
+            }
+        }
     }
 
 
